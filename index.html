@@ -29,6 +29,7 @@
                     <ul class="navbar-nav ms-auto">
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#about">Resumo</a></li>
                         <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#portfolio">Roadmap</a></li>
+                        <li class="nav-item mx-0 mx-lg-1"><a class="nav-link py-3 px-0 px-lg-3 rounded" href="#sobre">Sobre nós</a></li>
                     </ul>
                 </div>
             </div>
@@ -45,7 +46,7 @@
                     <div class="divider-custom-line"></div>
                 </div>
                 <!-- Masthead Subheading-->
-                <p class="masthead-subheading font-weight-light mb-0">Gabriel H. P. Moreira (197364) | Raul C. Alexandre (205179)</p>
+                
             </div>
         </header>
         <!-- About Section-->
@@ -150,6 +151,26 @@
                 </div>
             </div>
         </section>
+
+        <!-- Sobre nós-->
+        <section class="page-section bg-primary text-white mb-0" id="sobre">
+            <div class="container">
+                <!-- About Section Heading-->
+                <h2 class="page-section-heading text-center text-uppercase text-white">Sobre nós</h2>
+                <!-- Icon Divider-->
+                <div class="divider-custom divider-light">
+                    <div class="divider-custom-line"></div>
+                </div>
+                <!-- About Section Content-->
+                <div class="container d-flex align-items-center flex-column">
+                    <img class="masthead-avatar mb-5" src="assets/img/nos.svg" alt="..." />
+                    <h3>Gabriel H. P. Moreira | Raul C. Alexandre </h3>
+                </div>
+                <div class="row">
+                    <div class="mb-4 text-center"><p class="lead">Partindo de um contexto de personagens de filmes/desenhos animados, e inserindo uma base científica, nossa intenção neste projeto é discutir sobre como supostamente ocorre a comunicação por telepatia a partir da história do professor Charles Xavier (X-Men). Assumindo uma situação hipotética onde tal habilidade realmente exista, vamos discutir qual a definição de telepatia e como ela pode supostamente ocorrer - neste momento, nossa intenção é criar um diálogo a respeito do conceito de Ondas e qual a importância dele para a comunicação. A seguir, pretendemos debater a possibilidade da invenção de tecnologias/aparelhos que imitem tal habilidade. Por fim, nossa intenção é usar a questão principal como clímax para discutir a possibilidade de evoluirmos e, algum dia, termos a possibilidade de nos comunicarmos com o poder da mente. Estruturado em oito seções a partir dessa descrição e fundamentado nas habilidades EM13CNT208, EM13CNT301 e EM13CNT304 da BNCC, o tema foi trabalhado a partir da exposição de textos, vídeos e outras referências com algumas questões em aberto no decorrer da sequência desenvolvida.</p></div>
+                </div>
+            </div>
+        </section>
         
         
         <!-- Footer-->
@@ -240,7 +261,7 @@
                                     Por ser extremamente comum no nosso cotidiano, acabamos nos acostumando com ela e a consideramos, nas suas devidas proporções, como ultrapassada. Mas como de fato funciona a comunicação via rádio? Deixe aqui embaixo sua hipótese!</p>
                                     <h3> Fórum </h3>
                                     <div>
-                                        <form action="modified.php" method = "post">
+                                        <form action="connection.php" method = "post">
                                           <p>Nome:</p>
                                           <input class="form-control" type="text" id="name" name="name"><br>
                                           <p>E-mail:</p>
@@ -248,7 +269,7 @@
                                           <p>Seu comentário:</p>
                                           <textarea class="form-control" name="comment" placeholder="Escreva aqui..."></textarea><br>
                                           <label>Imagens: <input class="form-control" type="file" name="image"><br> </label><br>
-                                          <button name="submit" class="btn btn-primary">Enviar!</button><br>
+                                          <input type="submit" class="btn btn-primary" /><br>
                                           <br>
                                         </form>
                                     </div>
